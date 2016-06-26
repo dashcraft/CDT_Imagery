@@ -1,10 +1,10 @@
 $(document).ready(function(){
 
-$('.new-dropdown-hide').hide();
+$('#new-dropdown').hide();
 
 $('#dropdown').on('click',function(){
+	$('#new-dropdown').toggle(700);
 
-	$('.new-dropdown-hide').slideToggle(1500);
 })
 
 })

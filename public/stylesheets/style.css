@@ -67,13 +67,14 @@ ul{
 
 #dropdown .new-dropdown-hide li{
 	margin-left:25px;
-	margin-top:20px;
+	margin-top:25px;
 	font-size:12px;
 }
 
-#dropdown .new-dropdown-hide{
-	height:154.135px;
+#new-dropdown{
+	border:1px solid transparent;
 }
+
 
 
 
