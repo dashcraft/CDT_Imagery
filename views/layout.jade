@@ -1,33 +1,46 @@
 doctype html
 html
 	head
-		title= title
-		link(rel='stylesheet', href='/stylesheets/style.css')
-		link(rel='stylesheet', href='/abower_components/slick-carousel/slick/slick-theme.css')
-		link(rel='stylesheet', href='/bower_components/slick-carousel/slick/slick.css')
+		title CDT Imagery
 		link(rel='stylesheet', href='/stylesheets/style.css')
 		script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js')
-		script(src='/bower_components/jquery/dist/jquery.min.js')
-		script(src='/bower_components/jquery-ui/jquery-ui.js')
-		script(src='/bower_components/jquery-ui/jquery-ui.min.js')
-		script(src='/bower_components/slick-carousel/slick/slick.js')
-		script(src='/bower_components/slick-carousel/slick/slick.min.js')
+		script(type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js")
+		link(rel="stylesheet",href="/slick/slick.css")
+		link(rel="stylesheet",href="/slick/slick-theme.css")
 		script(src='/javascripts/custom-js.js')
-
-
+	
+	
 	body
 		nav.main-navigation
 			h1: a(href="/") CDT
 			h3 Imagery
 			div.nav-bar
 				ul
-					li: a(href='/aboutme') About Me
-					li#dropdown Portfolio
+					li.bottom-border-expand: a(href='/aboutme') About Me
+					li.bottom-border-expand#dropdown Portfolio
 						ul(style="height: <height in px>;")#new-dropdown.new-dropdown-hide 
 							li: a(href="/portfolio/boudoir") Boudoir
 							li: a(href="/portfolio/landscape") Landscape
 							li: a(href="/portfolio/Lifestyle") Lifestyle
 							li: a(href="/portfolio/portraits") Portraits
-					li: a(href='/Booking') Booking
-					li: a(href='/contact') Contact
-		block content
+					li.bottom-border-expand: a(href='/Booking') Booking
+					li.bottom-border-expand: a(href='/contact') Contact
+		div.main-background-slider
+			.slider-content
+				img(src="/images/SliderPhotos/_ANH1071.jpg", alt="")
+			.slider-content
+				img(src="/images/SliderPhotos/_ANH1109.jpg", alt="")
+			.slider-content
+				img(src="/images/SliderPhotos/_ANH1324.jpg", alt="")
+			.slider-content
+				img(src="/images/SliderPhotos/_ANH1924.jpg", alt="")
+			.slider-content
+				img(src="/images/SliderPhotos/IMG_0298.jpg", alt="")
+			.slider-content
+				img(src="/images/SliderPhotos/YA0A0188.jpg", alt="")
+			.slider-content
+				img(src="/images/SliderPhotos/YA0A0247.jpg", alt="")
+	
+	
+
+	script(src="slick/slick.min.js")

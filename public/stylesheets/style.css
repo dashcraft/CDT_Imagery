@@ -26,6 +26,19 @@ background-color:#5C5A5A;
 	cursor: pointer;
 }
 
+.nav-bar .bottom-border-expand:after{
+  display:block;
+  content: '';
+  border-bottom: solid 1px #95989A;  
+  transform: scaleX(0.0001);  
+  transition: transform 250ms ease-in-out;
+}
+
+.nav-bar .bottom-border-expand:hover:after{
+	transform: scaleX(0.6);
+}
+
+
 ul{
 	padding-left:0px;
 }
@@ -76,7 +89,10 @@ ul{
 }
 
 
-
+.main-background-slider .slider-content img{
+	height:100vh;
+	width:auto;
+}
 
 
 
