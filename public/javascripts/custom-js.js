@@ -9,11 +9,19 @@ $('#dropdown').on('click',function(){
 
 })
 
+
+
+
+
+})
+
+$(window).load(function(){
+
 $('.main-background-slider').slick({ 
 	slidesToShow: 1,
   	slidesToScroll: 1,
   	autoplay: true,
-  	autoplaySpeed: 2000,
+  	autoplaySpeed: 2300,
 	infinite: true,
 	speed: 300,
 	centerMode: true,
@@ -21,8 +29,5 @@ $('.main-background-slider').slick({
 	arrows:false,
 	
 })
-
-
-
 
 })
