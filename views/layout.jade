@@ -3,6 +3,7 @@ html
 	head
 		title CDT Imagery
 		link(rel='stylesheet', href='/stylesheets/style.css')
+		script(src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.9/angular.min.js")
 		script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js')
 		script(type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js")
 		link(rel="stylesheet",href="/slick/slick.css")
@@ -25,22 +26,5 @@ html
 							li: a(href="/portfolio/portraits") Portraits
 					li.bottom-border-expand: a(href='/Booking') Booking
 					li.bottom-border-expand: a(href='/contact') Contact
-		div.main-background-slider
-			.slider-content
-				img(src="/images/SliderPhotos/_ANH1071.jpg", alt="")
-			.slider-content
-				img(src="/images/SliderPhotos/_ANH1109.jpg", alt="")
-			.slider-content
-				img(src="/images/SliderPhotos/_ANH1324.jpg", alt="")
-			.slider-content
-				img(src="/images/SliderPhotos/_ANH1924.jpg", alt="")
-			.slider-content
-				img(src="/images/SliderPhotos/IMG_0298.jpg", alt="")
-			.slider-content
-				img(src="/images/SliderPhotos/YA0A0188.jpg", alt="")
-			.slider-content
-				img(src="/images/SliderPhotos/YA0A0247.jpg", alt="")
-	
-	
-
+		block content
 	script(src="slick/slick.min.js")

@@ -58,12 +58,11 @@ ul{
 	position:fixed;
 	left:67px;
 	text-align:center;
-	width:197px;
+	width:175px;
 	height:100vh;
 	z-index:999;
 	background-color:#fff;
-	border-left:1px solid #95989A;
-	border-right:1px solid #95989A;
+	box-shadow:0px 0px 3px 1px #5C5A5A;
 }
 
 .main-navigation h1 a{
