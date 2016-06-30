@@ -1,0 +1,36 @@
+extends layout
+
+		nav.main-navigation(ng-controller="mainCtrl")
+			h1: a(href="/") CDT
+			h3(type="text", data-ng-model="text")
+				{{text}}
+			div.nav-bar
+				ul
+					li.bottom-border-expand: a(href='/aboutme') About Me
+					li.bottom-border-expand#dropdown Portfolio
+						ul(style="height: <height in px>;")#new-dropdown.new-dropdown-hide 
+							li: a(href="/portfolio/boudoir") Boudoir
+							li: a(href="/portfolio/landscape") Landscape
+							li: a(href="/portfolio/Lifestyle") Lifestyle
+							li: a(href="/portfolio/portraits") Portraits
+					li.bottom-border-expand: a(href='/Booking') Booking
+					li.bottom-border-expand: a(href='/contact') Contact
+		div.main-background-slider
+			.slider-content
+				img(src="/images/SliderPhotos/_ANH1071.jpg", alt="")
+			.slider-content
+				img(src="/images/SliderPhotos/_ANH1109.jpg", alt="")
+			.slider-content
+				img(src="/images/SliderPhotos/_ANH1324.jpg", alt="")
+			.slider-content
+				img(src="/images/SliderPhotos/_ANH1924.jpg", alt="")
+			.slider-content
+				img(src="/images/SliderPhotos/IMG_0298.jpg", alt="")
+			.slider-content
+				img(src="/images/SliderPhotos/YA0A0188.jpg", alt="")
+			.slider-content
+				img(src="/images/SliderPhotos/YA0A0247.jpg", alt="")
+		div(ng-view)
+	
+
+	script(src="slick/slick.min.js")
