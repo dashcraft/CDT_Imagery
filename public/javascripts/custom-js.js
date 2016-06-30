@@ -53,7 +53,7 @@ $('.main-background-slider').slick({
 
 
 $('.slider-nav').slick({
-  slidesToShow:8,
+  slidesToShow:5,
   slidesToScroll: 1,
   infinite:true,
   asNavFor: '.sliderfor',
