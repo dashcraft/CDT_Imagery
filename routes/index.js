@@ -6,7 +6,11 @@ var fs = require('fs');
 
 
 router.get('/', function(req, res, next) {
-	res.render('index');
+
+	var files = [];
+	files.length=0;
+	files =fs.readdirSync('./public/images/SliderPhotos');
+	res.render('index',{data:files});
 });
 
 router.get('/images', function(req,res){

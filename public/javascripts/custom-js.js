@@ -10,7 +10,7 @@ $('#dropdown').on('click',function(){
 
 })
 
-$.get("/images",function(data){
+/*$.get("/images",function(data){
 	
 	console.log(data);
 		$.each(data,function(index,value){
@@ -20,7 +20,7 @@ $.get("/images",function(data){
 				)
 		})
 
-		})
+		})*/
 
 
 })
