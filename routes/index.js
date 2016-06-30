@@ -25,7 +25,7 @@ router.get('/images', function(req,res){
 router.get('/portraits', function(req,res){
 	var files = [];
 	files.length=0;
-	files =fs.readdirSync('./public/images/Photography_Site_Photos/portraits');
+	files =fs.readdirSync('./public/images/Photography_Site_Photos/Portraits');
 	res.render('portraits', {data:files});
 
 })
