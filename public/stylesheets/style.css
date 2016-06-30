@@ -87,11 +87,32 @@ ul{
 	border:1px solid transparent;
 }
 
+.sliderfor img{
+	height:75vh;
+}
+
+
+
+.sliderfor{
+	margin-left:20%;
+}
+
+.slider-nav img{
+	margin-top:8vh;
+	margin-right:15px;
+	height:15vh;
+	width:auto;
+}
+
+.slider-nav{
+	margin-left:20%;
+}
 
 .main-background-slider .slider-content img{
 	height:100vh;
 	width:auto;
 }
+
 
 
 

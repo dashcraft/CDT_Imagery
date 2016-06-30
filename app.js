@@ -33,7 +33,6 @@ app.use(function(req, res, next) {
 });
 
 
-var files =fs.readdirSync('./public/images/SliderPhotos/');
 
 // error handlers
 

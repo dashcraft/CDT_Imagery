@@ -41,4 +41,26 @@ $('.main-background-slider').slick({
 	
 })
 
+
+ $('.sliderfor').slick({
+ 	slidesToShow: 1,
+  	slidesToScroll: 1,
+  	infinite:true,
+	centerMode:true,
+	variableWidth: true,
+	arrows:false
+});
+
+
+$('.slider-nav').slick({
+  slidesToShow:8,
+  slidesToScroll: 1,
+  infinite:true,
+  asNavFor: '.sliderfor',
+  focusOnSelect: true,
+  arrows:false,
+  centerMode:true
+});
+
+
 })

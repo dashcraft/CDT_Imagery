@@ -13,17 +13,18 @@ html
 	
 	body
 		nav.main-navigation
+			h1 CDT
 			h3 Imagery
 			div.nav-bar
 				ul
 					li.bottom-border-expand: a(href='/aboutme') About Me
 					li.bottom-border-expand#dropdown Portfolio
 						ul(style="height: <height in px>;")#new-dropdown.new-dropdown-hide 
-							li: a(href="/portfolio/boudoir") Boudoir
+							li: a(href="/boudoir") Boudoir
 							li: a(href="/portfolio/landscape") Landscape
-							li: a(href="/portfolio/Lifestyle") Lifestyle
+							li: a(href="/Lifestyle") Lifestyle
 							li: a(href="/portfolio/portraits") Portraits
 					li.bottom-border-expand: a(href='/Booking') Booking
 					li.bottom-border-expand: a(href='/contact') Contact
 		block content
-	script(src="slick/slick.min.js")
+	script(src="slick/slick.js")

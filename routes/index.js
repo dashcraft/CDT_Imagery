@@ -27,10 +27,22 @@ router.get('/aboutme', function(req,res){
 	res.render('main.jade');
 })
 
-router.get('/portfolio/boudoir', function(req,res){
-	res.render('boudoir');
+router.get('/boudoir', function(req,res){
+	var files = [];
+	files.length=0;
+	files =fs.readdirSync('./public/images/Photography_Site_Photos/Boudoir');
+	res.render('boudoir', {data:files});
 
 })
+
+router.get('/lifestyle', function(req,res){
+	var files = [];
+	files.length=0;
+	files =fs.readdirSync('./public/images/Photography_Site_Photos/Lifestyle');
+	res.render('Lifestyle', {data:files});
+
+})
+
 
 router.get('/portfolio/landscape', function(req,res){
 	res.render('landscape');
