@@ -8,12 +8,13 @@ html
 		script(type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js")
 		link(rel="stylesheet",href="/slick/slick.css")
 		link(rel="stylesheet",href="/slick/slick-theme.css")
+		link(rel="stylesheet",type="text/css",href="https://fonts.googleapis.com/css?family=Raleway:300")
 		script(src='/javascripts/custom-js.js')
-	
+		
 	
 	body
 		nav.main-navigation
-			h1 CDT
+			h1: a(href="/") CDT
 			h3 Imagery
 			div.nav-bar
 				ul
@@ -21,9 +22,9 @@ html
 					li.bottom-border-expand#dropdown Portfolio
 						ul(style="height: <height in px>;")#new-dropdown.new-dropdown-hide 
 							li: a(href="/boudoir") Boudoir
-							li: a(href="/portfolio/landscape") Landscape
-							li: a(href="/Lifestyle") Lifestyle
-							li: a(href="/portfolio/portraits") Portraits
+							li: a(href="/landscape") Landscape
+							li: a(href="/lifestyle") Lifestyle
+							li: a(href="/portraits") Portraits
 					li.bottom-border-expand: a(href='/Booking') Booking
 					li.bottom-border-expand: a(href='/contact') Contact
 		block content

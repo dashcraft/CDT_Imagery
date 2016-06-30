@@ -22,6 +22,13 @@ router.get('/images', function(req,res){
 	res.send(files);
 })
 
+router.get('/portraits', function(req,res){
+	var files = [];
+	files.length=0;
+	files =fs.readdirSync('./public/images/Photography_Site_Photos/portraits');
+	res.render('portraits', {data:files});
+
+})
 
 router.get('/aboutme', function(req,res){
 	res.render('main.jade');
@@ -44,8 +51,5 @@ router.get('/lifestyle', function(req,res){
 })
 
 
-router.get('/portfolio/landscape', function(req,res){
-	res.render('landscape');
-})
 
 module.exports = router;
