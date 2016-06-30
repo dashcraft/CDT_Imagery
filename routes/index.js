@@ -4,15 +4,16 @@ var exp = require('serve-index');
 /* GET home page. */
 var fs = require('fs');
 
-var files = [];
-
 
 router.get('/', function(req, res, next) {
 	res.render('index');
 });
 
 router.get('/images', function(req,res){
-	var files =fs.readdirSync('./public/images/SliderPhotos');
+	
+	var files = [];
+	files.length=0;
+	files =fs.readdirSync('./public/images/SliderPhotos');
 
 	res.send(files);
 })

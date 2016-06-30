@@ -14,7 +14,6 @@ $.get("/images",function(data){
 	
 	console.log(data);
 		$.each(data,function(index,value){
-			if(data === '.ds_store') return true;
 			$('.main-background-slider').append(
 			'<div class="slider-content"><img src="/images/SliderPhotos/'
 			+ data[index] + '">'
