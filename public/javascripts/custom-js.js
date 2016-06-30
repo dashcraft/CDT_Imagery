@@ -59,7 +59,8 @@ $('.slider-nav').slick({
   asNavFor: '.sliderfor',
   focusOnSelect: true,
   arrows:false,
-  centerMode:true
+  centerMode:true,
+  variableWidth:true
 });
 
 

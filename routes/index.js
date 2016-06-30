@@ -30,7 +30,7 @@ router.get('/aboutme', function(req,res){
 router.get('/boudoir', function(req,res){
 	var files = [];
 	files.length=0;
-	files =fs.readdirSync('./public/imsages/Photography_Site_Photos/Boudoir');
+	files =fs.readdirSync('./public/images/Photography_Site_Photos/Boudoir');
 	res.render('boudoir', {data:files});
 
 })
