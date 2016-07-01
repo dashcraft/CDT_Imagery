@@ -37,10 +37,6 @@ $('#dropdown-2').on('mouseover',function(){
 		})*/
 
 
-})
-
-
-$(window).load(function(){
 
 $('.main-background-slider').slick({ 
 	slidesToShow: 1,
@@ -76,6 +72,7 @@ $('.slider-nav').slick({
   centerMode:true,
   variableWidth:true
 });
+
 
 
 })
