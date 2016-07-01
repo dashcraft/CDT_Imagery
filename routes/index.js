@@ -13,14 +13,12 @@ router.get('/', function(req, res, next) {
 	res.render('index',{data:files});
 });
 
-router.get('/images', function(req,res){
-	
-	var files = [];
-	files.length=0;
-	files =fs.readdirSync('./public/images/SliderPhotos');
+router.get('/Booking', function(req,res){
 
-	res.send(files);
+	res.render('booking');
 })
+
+
 
 
 router.get('/California', function(req,res){
