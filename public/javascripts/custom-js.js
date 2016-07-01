@@ -2,13 +2,27 @@ $(document).ready(function(){
 var images=[];
 
 $('#new-dropdown').hide();
+$('#new-dropdown-2').hide();
 
 
-
-$('#dropdown').on('click',function(){
-	$('#new-dropdown').toggle(700);
+$('#dropdown').on('mouseover',function(){
+	$('#new-dropdown').show(700);
 
 })
+
+$('#dropdown').on('click',function(){
+	$('#new-dropdown').hide(700);
+	$('#new-dropdown-2').hide(700);
+
+})
+
+
+$('#dropdown-2').on('mouseover',function(){
+	$('#new-dropdown-2').show(800);
+
+})
+
+
 
 /*$.get("/images",function(data){
 	
