@@ -73,12 +73,13 @@ ul{
 
 iframe {
 	position:fixed;
-	margin-left:300px;
+	margin-left:270px;
 	margin-top:20vh;
 	border-top:1px dashed rgba(0,0,0,0.2);
 	overflow-y:hidden;
 	height:80vh;
-	width:80vw;
+	width:75vw;
+
 }
 
 .center-white{
@@ -86,11 +87,11 @@ iframe {
 	text-align:center;
 	color:#5C5A5A;
 	background-color:white;
-	margin-left:300px;
+	margin-left:270px;
 	margin-right:auto;
 	height:20vh;
 	padding-top:1%;
-	width:80vw;
+	width:75vw;
 }
 
 .main-navigation h3{
