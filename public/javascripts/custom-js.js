@@ -4,6 +4,7 @@ var images=[];
 $('#new-dropdown').hide();
 $('#new-dropdown-2').hide();
 
+$('#secondary-nav-dropdown').hide();
 
 $('#dropdown').on('mouseover',function(){
 	$('#new-dropdown').show(700);
@@ -19,6 +20,14 @@ $('#dropdown').on('click',function(){
 
 $('#dropdown-2').on('mouseover',function(){
 	$('#new-dropdown-2').show(800);
+
+})
+
+
+$('#dropdown-nav-phone').on('click',function(){
+
+
+$('#secondary-nav-dropdown').toggle(700);
 
 })
 
