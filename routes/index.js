@@ -19,7 +19,15 @@ router.get('/Booking', function(req,res){
 })
 
 
+router.get('/Contact',function(req,res){
 
+	res.render('contact');
+})
+
+router.get('/Aboutme', function(req,res){
+
+	res.render('aboutme');
+})
 
 router.get('/California', function(req,res){
 	var files = [];
