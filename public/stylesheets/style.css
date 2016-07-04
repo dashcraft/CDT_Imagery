@@ -141,6 +141,7 @@ iframe {
 
 .sliderfor img{
 	height:75vh;
+	object-fit:contain;
 }
 
 .black {

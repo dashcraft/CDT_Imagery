@@ -64,9 +64,9 @@ $('.main-background-slider').slick({
  $('.sliderfor').slick({
  	slidesToShow: 1,
   	slidesToScroll: 1,
-  	infinite:true,
+  	asNavFor: '.slider-nav',
+  	fade:true,
 	centerMode:true,
-	variableWidth: true,
 	arrows:false
 });
 
