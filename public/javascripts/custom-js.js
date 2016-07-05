@@ -72,9 +72,8 @@ $('.main-background-slider').slick({
 
 
 $('.slider-nav').slick({
-  slidesToShow:5,
+  slidesToShow:3,
   slidesToScroll: 1,
-  infinite:true,
   asNavFor: '.sliderfor',
   focusOnSelect: true,
   arrows:false,
